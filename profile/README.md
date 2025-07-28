@@ -2,9 +2,10 @@
 
 <img width="1478" height="806" alt="image" src="https://github.com/user-attachments/assets/cac9a77a-d731-489f-932e-cdd543e5d073" />  
 
-- 배포 URL : https://tio-style.com/
-- Test ID : tryiton15@gmail.com
-- Test PW : Test123!
+- ~~배포 URL : https://tio-style.com/~~
+- ~~Test ID : tryiton15@gmail.com~~
+- ~~Test PW : Test123!~~
+> ❗ Notice: 현재 도메인은 사용 불가합니다.
 
 <br>
 
