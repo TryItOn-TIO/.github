@@ -29,13 +29,16 @@
 
 <br>
 
-## 1. 개발 환경
+## 1. 기술 스택
 
 - Front : Next.js (TypeScript), Zustand, Tailwind CSS, Axios
-- Back-end : Spring Boot, JPA / MySQL, JWT, Spring Cloud AWS
+- Back-end : Spring Boot, JPA / MySQL, JWT, OAuth
 - FitDit api 사용
 - 버전 및 이슈관리 : Github, Github Issues
-- 협업 툴 : Notion  
+- 협업 툴 : Notion
+- CI/CD : Git, Github Actions, AWS Codedeploy
+- Infra : AWS, RDS(MySQL 8.8), ElastiCache(Redis), Lambda, AWS CloudFront(CDN), AWS Route53(DNS)
+- 테스트 / 모니터 : nGrinder, granafa K6, AWS Cloudwatch
 
 <br>  
 
