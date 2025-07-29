@@ -15,6 +15,15 @@
 - (개인화 추천 시스템을 도입하여) 옷 추천부터 결제까지 할 수 있는 이커머스 기능입니다.
 - 마음에 드는 착장한 아바타를 스토리로 공유하여 포스트잇 형태의 댓글을 남기며 커뮤니티 기능도 즐길 수 있습니다.
 
+<br>
+
+## 프로젝트 시연   
+
+TryItOn 사이트의 주요 기능을 담은 시연 영상입니다.  
+아바타 생성부터 가상 피팅, 커뮤니티 기능까지 한눈에 확인해보세요!  
+
+- 시연 영상 : https://youtu.be/IW9zQigdJ2U?si=VMkck0N88lwyO3o5  
+
 <br>  
 
 ## 팀원 구성   
@@ -129,9 +138,8 @@
 - 브랜드명과 제품명을 검색 조건으로 하여 검색어 필터링
 - 유저가 검색을 하면 자동완성 결과를 최대 6개 띄워줍니다. (제품명 기준)
 
-<img width="2296" height="880" alt="image" src="https://github.com/user-attachments/assets/8b1ce2f9-c763-4171-8452-5a47aac6c64f" />  
-
-<br>  
+<img width="1486" height="765" alt="스크린샷 2025-07-25 오후 2 52 34" src="https://github.com/user-attachments/assets/1e700390-ba38-4c50-a674-2e47b59a8e5c" />
+<img width="2296" height="880" alt="image" src="https://github.com/user-attachments/assets/8b1ce2f9-c763-4171-8452-5a47aac6c64f" />   
 
 ### [아바타 가상 피팅]  
 
@@ -143,7 +151,8 @@
   - 상의 단일 피팅 or 하의 단일 피팅 : 각각 상의 또는 하의 정보로 캐시 키를 부여하여 캐시 이미지를 저장
   - 상의 착용 중, 하의 변경 : 상/하의 정보로 캐시 키 부여하여 캐시 이미지를 저장
   - 하의 착용 중, 상의 변경 : 상/하의 정보로 캐시 키 부여하여 캐시 이미지를 저장
-
+ 
+https://github.com/user-attachments/assets/3da54487-30b5-4a4c-8b58-3fccce4d566f  
 
 ### [옷장]  
 
@@ -165,7 +174,7 @@
 - 댓글 작성 기능을 활용하여 붙이고 싶은 위치에 댓글을 남길 수 있습니다.
 - **스토리 관리** 기능을 통해, 본인이 올린 스토리를 삭제할 수 있는 기능도 있습니다.
 
-<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/db3bbdc4-3afa-4bb9-a1a6-3a4326f61b5e" />
+<img width="2874" height="1604" alt="image" src="https://github.com/user-attachments/assets/c5a08103-848f-4605-86b2-d1f2f4f1de53" />
 
 ### [결제]  
 
