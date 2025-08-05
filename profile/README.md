@@ -50,9 +50,21 @@ TryItOn 사이트의 주요 기능을 담은 시연 영상입니다.
 - Infra : AWS, RDS(MySQL 8.8), ElastiCache(Redis), Lambda, AWS CloudFront(CDN), AWS Route53(DNS)
 - 테스트 / 모니터 : nGrinder, granafa K6, AWS Cloudwatch
 
-<br>  
+<br>   
 
-## 2. 커밋 컨벤션  
+## 2. 시스템 아키텍쳐  
+
+<img width="1440" height="810" alt="image" src="https://github.com/user-attachments/assets/c70cb433-534e-416f-9724-61b1ccb34a33" />  
+
+TIO 서비스는 AWS VPC 내에 `public`/`private` 서브넷을 구분해 인프라를 구성했습니다.  
+Route53 ➔ CloudFront로 트래픽을 수신하고, 정적 파일은 S3로, API 요청은 ALB로 분기됩니다.  
+Frontend, Backend, Try-on Server는 각각 Auto Scaling Group으로 구성되어 가용성과 확장성을 확보했습니다.  
+추천 캐싱은 Redis + RDS + Lambda로 처리하며, 데이터 저장은 RDS,   
+이미지 처리는 Try-on Server + GPU Worker + S3 조합으로 분리하여 고성능 서비스를 제공합니다.  
+
+<br>
+
+## 3. 커밋 컨벤션  
 
 | 태그         | 설명                                                    |
 |------------|-------------------------------------------------------|
@@ -67,7 +79,7 @@ TryItOn 사이트의 주요 기능을 담은 시연 영상입니다.
 
 <br>  
 
-## 3. 역할 분담  
+## 4. 역할 분담  
 
 ### 🦭 김성광 (팀장)     
 
@@ -98,7 +110,7 @@ TryItOn 사이트의 주요 기능을 담은 시연 영상입니다.
 
 <br>  
 
-## 4. 개발 기간 
+## 5. 개발 기간 
 
 - 전체 개발 기간 : 6/26 ~ 7/23
 - 아이디어 선정 : 6/19 ~ 6/25
@@ -107,7 +119,7 @@ TryItOn 사이트의 주요 기능을 담은 시연 영상입니다.
 
 <br>  
 
-## 5. 페이지별 기능  
+## 6. 페이지별 기능  
 
 ### [초기화면 - 홈]  
 
